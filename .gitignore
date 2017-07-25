@@ -49,3 +49,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.pyc
+
+#(jimmybot@teknik.io) ignore my .vscode files
+.vscode*
