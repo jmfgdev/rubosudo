@@ -15,3 +15,7 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+# Ignore python for ruby language recognition on GitHub
+* linguist-vendored
+*.rb linguist-vendored=false
