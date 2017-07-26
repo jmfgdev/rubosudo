@@ -1,34 +1,17 @@
 # sudoBot
-A Discord bot written in Python
+
+rubosudo is a remake of sudobot in Ruby, and it is licensed under a stronger copyleft license, the AGPLv3, see below.
 
 ## Getting Started
 
-These are needed to be able to run **sudobot**.
+These are needed to be able to run **rubosudo**.
 
-- [Python 3.5](https://www.python.org/)
-- [Discord.py](https://github.com/Rapptz/discord.py)
-- [Pillow](https://github.com/python-pillow/Pillow)
+- [Ruby 2.4+](https://www.ruby-lang.org/)
+- [Discordrb](https://github.com/meew0/discordrb)
 - [A unicode font like Noto Sans CJK (or a font of your choice)](https://www.google.com/get/noto/help/cjk/)
 
-## Setup
-
-Edit `config.sample.json` to your liking, then save it as `config.json`.
-
-Place your selected font in `/data/fonts/` and be sure to link it in the config.
-
-Once you're ready just run `python bot.py` in the active directory to start the bot.
-
-## Cogs
-
-**Sudobot** has different modules that you can enable / disable. The current 'cogs' available are : 
-
-- General : General commands used within a server. 
-- Fun : Commands that are fun for users to play with, and serve nothing other than lighthearted spammy goodness.
-- Mod : Administrative and Moderative commands.
-
-Currently, the only way to enable / disable these are through `config.json` but this will change in the future.
-
 ## Commands
+
 ```php
 Fun:
   cow          A speaking/thinking cow
