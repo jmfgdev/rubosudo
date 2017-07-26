@@ -39,7 +39,7 @@ puts "Establishing connection to Discord with WebSocket"
   end
 
   bot.command :source do |event|
-    event.respond("You can see a copy my source, in accordance with the AGPLv3 license, without using any non-free software at this link\nhttps://raw.githubusercontent.com/jmfgdev/roobi/master/bot.rb")
+    event.respond("You can see a copy my source, in accordance with the AGPLv3 license, without using any non-free software at this link\nhttps://raw.githubusercontent.com/jmfgdev/rubosudo/master/rubosudo/bot.rb")
   end
 
 bot.run
